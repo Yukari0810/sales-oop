@@ -46,7 +46,7 @@ class User extends Database{
         // func_alert('Invalid Username');
       }
     }else{
-      die ("ERROR: ". $this->$conn->error);
+      die ("ERROR: ". $this->conn->error);
     }
   }
 
